@@ -64,8 +64,10 @@ def match_string_with_database(string_from_OCR: str) -> str:
             if max_ratio == 100:
                 break
 
+    return substance_with_max_ratio
 
-print(match_string_with_database("kw2as v4gdhnaskorbinowy"))
+
+print(match_string_with_database("lifd358788płaxvtjędaczvacxzmienne"))
 
 '''
     # fetchall method + test of 2 solutions for database iterating and applying fuzzy_string_matching_ratio
