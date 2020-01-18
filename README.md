@@ -15,7 +15,7 @@ This will be done in several steps:
 * **Image to text** - this part is responsible for image pre-processing and applying OCR on the photo.
 * **Database management** - creates a database of food ingredients with their description, category, and harmfulness grade. It also allows basic communication with the database.
 * **Text comparison** - prepares recognized text (removes spaces and invalid characters). Then it connects to the database and browses each record, looking for the most similar words. To compare recognized text and records, it uses the fuzzywuzzy library (Levenshtein Distance implementation).
-* **Flutter app** - GUI part of the project.
+* **Flutter app** - front-end part of the project.
 
 ## Task Status
 * Image to text - first working draft created
